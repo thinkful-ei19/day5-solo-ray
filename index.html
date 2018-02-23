@@ -5,7 +5,7 @@
   <title>Shopping List</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -16,6 +16,8 @@
             <input type="text" name="shopping-list-entry" class="js-shopping-list-entry" placeholder="e.g., broccoli">
             <button type="submit">Add item</button>
         </form>
+        <label for="display-checked">Remove checked items</label>
+        <input type="checkbox" id="display-checked" name="display-checked" value="checked">
         <ul class="shopping-list js-shopping-list">
         </ul>
     </div>
